@@ -2,8 +2,13 @@
   "main": "public/electron.js",
   "homepage": "./",
   "name": "mes_serom",
-  "version": "1.0.1",
+  "version": "1.5.0",
   "private": true,
+  "description": "",
+  "author":{
+    "name":"이앤더블유",
+    "email":"enw@naver.com"
+  },  
   "dependencies": {
     "@electron/remote": "^2.0.9",
     "@emotion/react": "^11.10.6",
@@ -46,7 +51,8 @@
     "win": {
       "publish": [
         "github"
-      ]
+      ],
+      "icon": "./public/assets/icons/mes_icon.png"
     }
   },
   "eslintConfig": {
