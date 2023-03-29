@@ -2,7 +2,7 @@
   "main": "public/electron.js",
   "homepage": "./",
   "name": "mes_serom",
-  "version": "1.3.2",
+  "version": "1.4.5",
   "private": true,
   "description": "",
   "author":{
@@ -52,7 +52,7 @@
       "publish": [
         "github"
       ],
-      "icon": "./public/assets/icons/mes_icon.png"
+      "icon": "./public/assets/icons/mes_icon.ico"
     }
   },
   "eslintConfig": {
