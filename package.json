@@ -1,8 +1,8 @@
 {
   "main": "public/electron.js",
   "homepage": "./",
-  "name": "mes_serom",
-  "version": "1.4.8",
+  "name": "mes_dongin",
+  "version": "1.0.0",
   "private": true,
   "description": "",
   "author":{
@@ -42,10 +42,10 @@
     "build:publish": "react-scripts build && electron-builder --win --publish always"
   },
   "build": {
-    "appId": "com.mes_serom",
-    "productName": "mes_serom",
+    "appId": "com.mes_dongin",
+    "productName": "mes_dongin",
     "directories": {
-      "output": "mes_serom-build",
+      "output": "mes_dongin-build",
       "buildResources": "build-assets"
     },
     "win": {
